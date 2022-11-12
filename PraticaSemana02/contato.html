@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Contato</title>
+</head>
+
+<body>
+    <header>
+        <table border="0" id="cabecalho">
+            <tr>
+                <td rowspan="2"><img style="border-radius: 100px;" src="img/fotosite.jfif" alt="Foto Diogo"
+                        width="100px">
+                </td>
+                <td>
+                    <h1>Diogo Zonta</h1>
+                </td>
+            </tr>
+            <tr>
+                <td height="30px">
+                    <p>&lt;Designer e Desenvolvedor Web&gt;</p>
+                </td>
+            </tr>
+        </table>
+    </header>
+    <table border="0" width="100%" cellspacing="20px">
+        <nav>
+            <tr>
+                <td colspan="2" align="center">
+                    <ul>
+                        <li><a class="linkmenu" id href="index.html">Principal</a></li>
+                        <li><a class="linkmenu" href="quemsou.html">Quem sou</a></li>
+                        <li><a class="linkmenu" href="projetos.html">Projetos</a></li>
+                        <li><a style="background-color: var(--green-ryb); border-radius: 10px;" class="linkmenu"
+                                href="contato.html">Contato</a></li>
+                    </ul>
+                </td>
+            </tr>
+        </nav>
+    </table>
+    <div class="centralizar">
+        <table border="0" width="80%" cellspacing="0">
+            <tr align="left">
+                <th>
+                    <h1>Projetos mais relevantes</h1>
+                    <p>Preencha todos os campos do formulário a seguir e em até 48h lhe respoderei. <br> Será um prazer
+                        lhe atender</p>
+                </th>
+            </tr>
+        </table>
+        <table border="0" cellspacing="10" width="80%">
+            <tr>
+                <td>
+                    <label for="txtAssunto">Assunto</label><br>
+                    <input type="text" name="assunto" id="txtAssunto" list="listaAssunto">
+                    <datalist id="listaAssunto">
+                        <option value="Orçamento"></option>
+                        <option value="Elogio"></option>
+                        <option value="Sugestões"></option>
+                    </datalist>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="txtNome">Nome</label><br>
+                    <input type="text" name="nomeCompleto" id="txtNome" placeholder="Beltrano de tal">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="txtNome">E-mail</label><br>
+                    <input type="email" name="Email" id="txtEmail" placeholder="beltrano@gmail.com">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="txtNome">Telefone</label><br>
+                    <input type="tel" name="nome" id="txtTelefone" placeholder="(27) 99999-9999">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="txtMensagem">Mensagem</label><br>
+                    <textarea name="mensagem" id="txtMensagem" cols="30" rows="10"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" value="Enviar"
+                        style="font-size: 20px; color: white; background-color: blue; padding: 0 10px;">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p><b>Outras formas de contato:</b></p>
+                    Residente em Linhares/ES <br>
+                    contato@email.com <br>
+                    (27) 99999-9999 <br>
+                    <a href="https://www.linkedin.com/in/diogozonta">LinkedIn</a>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <footer>
+        Copyright &copy; 2022 <br>
+        <img src="img/ifes.png" alt="Logo do Ifes" width="100">
+    </footer>
+</body>
+
+</html>

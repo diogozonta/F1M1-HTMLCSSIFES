@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+div.principal {
+    background-color: darkolivegreen;
+    width: 400px;
+    height: 400px;
+    position: static;
+    margin: 0 auto;
+}
+
+div.amarela {
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+
+div.azul {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 500px;
+    top: 150px;
+}
+
+div.vermelha {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 300px;
+}
+
+div.verde {
+    background-color: green;
+    width: 100vw;
+    height: 100px;
+    position: static
+}

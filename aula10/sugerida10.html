@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Cliente</title>
+</head>
+<body>
+    <h1>Cadastro de Cliente</h1>
+    <hr>
+    <form action="/cliente/cadastrar">
+        <p>
+            <label for="txtNome">Nome</label><br>
+            <input type="text" name="nomeCompleto" id="txtNomeCompleto">
+        </p>
+        <p>
+            <label for="txtEmail">E-mail</label><br>
+            <input type="email" name="email" id="txtEmail">
+        </p>
+        <p>
+            <label for="txtUrl">URL Portifólio Online</label><br>
+            <input type="url" name="urlPortifolio" id="txtUrl">
+        </p>
+        <p>
+            <label for="dtNascimento">Data de nascimento</label><br>
+            <input type="date" name="dataNascimento" id="dtNascimento" min="1930-01-01" max="2003-01-01">
+        </p>
+        <p>
+            <label for="txtQtdDependentes">Quantidade dependentes</label><br>
+            <input type="number" name="quantidadeDependentes" id="txtQtdDependentes">
+        </p>
+        <p>
+            <label for="txtTelefone">Telefone</label><br>
+            <input type="tel" name="telefone" id="txtTelefone">
+        </p>
+        <p>
+            <input type="checkbox" name="promocoes" id="chkPromocoes"> Receber promocoes
+        </p>
+        <p>
+            <label for="ltbEstado">Estado</label><br>
+            <input type="text" name="estado" id="ltbEstado" list="estados">
+            <datalist id="estados">
+                <option value="ES">Espirito Santo</option>
+                <option value="SP">São Paulo</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="RJ">Rio de Janeiro</option>
+            </datalist>
+        </p>
+        <p>
+            <label for="txtBiografia">Mini-Biografia</label><br>
+            <textarea name="biografia" id="txtBiografia" cols="30" rows="10"></textarea>
+        </p>
+        <p>
+            <input type="submit" name="enviar" id="btnEnviar">
+        </p>
+    </form>
+</body>
+</html>

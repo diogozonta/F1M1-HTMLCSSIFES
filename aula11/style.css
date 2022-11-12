@@ -1,0 +1,33 @@
+h1 {
+    color: blue;
+    font-size: 30px;
+}
+
+.destacado {
+    color: orange;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+#txtNome {
+    color: blueviolet;
+}
+
+.textoSimples, p, h2 {
+    color: coral;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+p i {
+    text-decoration: underline;
+    color: red;
+}
+
+p > strong {
+    color: darkblue;
+    text-decoration: line-through;
+}

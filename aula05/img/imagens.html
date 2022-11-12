@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Imagens</title>
+  </head>
+  <body>
+    <h1>Imagens</h1>
+    <hr />
+    <!-- Para transformar a região de uma imagem em uma forma clicável é necessário selecionar a forma que ela mais se adapta (shape) e após isso declarar as cordenadas referentes aquela forma. -->
+    <img src="img/formas.png" alt="Formas Geométricas" usemap="#formas" />
+    <map name="formas">
+      <area
+        shape="circle"
+        coords="71,74,68"
+        href="circulo.html"
+        alt="circulo"
+      />
+      <area
+        shape="rect"
+        coords="177,139,314,2"
+        href="quadrado.html"
+        alt="quadrado"
+      />
+      <area
+        shape="rect"
+        coords="352,114,526,28"
+        href="retangulo.html"
+        alt="Retângulo"
+      />
+      <area
+        shape="poly"
+        coords="567,132,627,10,688,132"
+        href="triangulo.html"
+        alt="Triângulo"
+      />
+    </map>
+    <img
+      src="https://www.mapasmundi.com.br/blog/wp-content/uploads/2015/07/mapa_brasil_100X100_regioes_2.png"
+      alt="Mapa do Brasil"
+      usemap="#brasil"
+    />
+    <map name="brasil">
+      <area
+        target=""
+        alt="Espírito Santo"
+        title="Espírito Santo"
+        href="es.html"
+        coords="681,515,685,505,688,494,685,487,678,484,667,482,664,490,662,497,662,504,661,512,657,519,653,524,648,528,641,533,643,542,651,548,667,546,675,534,676,525,660,550"
+        shape="poly"
+      />
+      <area
+        target=""
+        alt="Rio de Janeiro"
+        title="Rio de Janeiro"
+        href="rj.html"
+        coords="656,557,654,564,649,568,644,575,637,578,633,582,628,587,613,586,594,585,582,588,590,577,586,572,598,568,607,563,629,553,633,546,648,548,654,549"
+        shape="poly"
+      />
+    </map>
+  </body>
+</html>

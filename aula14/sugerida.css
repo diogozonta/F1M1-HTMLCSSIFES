@@ -1,0 +1,45 @@
+p:after {
+    content: " *";
+}
+
+p:first-letter {
+    font-size: 30px;
+    color: red;
+}
+
+a[href^="http"] {
+    color:  black;
+}
+
+a[href$="xlsx"] {
+    color: red;
+}
+
+input[type=checkbox] {
+    border-radius: 20px;
+}
+
+input:focus {
+    background-color: yellowgreen;
+}
+
+input[type=number]:out-of-range {
+    background-color: red;
+}
+
+input[type=checkbox]:checked + label {
+    font-weight: bold;
+}
+
+td {
+    border: solid 1px gray;
+    padding: 10px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table tr:nth-child(odd) {
+    background-color: lightblue;
+}

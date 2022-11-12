@@ -1,0 +1,37 @@
+:root {
+    --indigo-dye: #0d3b66ff;
+    --lemon-meringue: #faf0caff;
+    --orange-yellow-crayola: #f4d35eff;
+    --sandy-brown: #ee964bff;
+    --orange-soda: #f95738ff;
+}
+
+body {
+    background-color: var(--lemon-meringue);
+    padding: 0px;
+    margin: 0px;
+    box-sizing:border-box ;
+}
+
+h1,  h2, h3, h4, h5, h6 {
+    color: var(--orange-soda);
+}
+
+p {
+    color: var(--sandy-brown);
+}
+
+a {
+    color: var(--orange-yellow-crayola);
+    text-decoration: none;
+}
+
+header, footer {
+    background-color: var(--indigo-dye);
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    padding: 10px;
+}

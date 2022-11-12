@@ -1,0 +1,49 @@
+#p1::after {
+    content: " *";
+}
+
+h1 {
+    position: relative;
+    text-align: center;
+}
+
+h1::after {
+    content: "";
+    background-image: linear-gradient(120deg, #e5ea15, #00c4ff);
+    width: 90%;
+    height: 5px;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%) skew(-50deg);
+}
+
+#p3::first-letter {
+    font-size: 50px;
+    color: red;
+}
+
+#p2:first-line {
+    background-color: yellow;
+    font-variant: small-caps;
+}
+
+ul>li::marker {
+    content: "🎈 ";
+}
+
+ol>li::marker {
+    color: blue;
+}
+
+/* (^) Indica que irá alterar apenas os links que iniciam com o valor de refêrencia, nessa caso "www".*/
+a[href^="www"]::after {
+    display: block;
+    font-weight: bold;
+    content: " 🏐";
+}
+
+/* ($) Indica que irá alterar apenas os links que iniciam com o valor de refêrencia, nessa caso "www".*/
+a[href$=".pdf"]::after {
+    content: " 🏓";
+}
